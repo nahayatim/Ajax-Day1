@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>local storage</title>
+</head>
+<body>
+	<button id="button" type="submit" form="cal" value="submit" onclick="pushToArray()">add</button>
+	<input type="text" id="name" name="name" placeholder="Name" value=""/>
+	<input type="text" id="lastname" name="lastname" placeholder="lastname" value="" />
+	<input type="text" id="age" name="age" placeholder="Age" value="" />
+	<input type="text" id="city" name="city" placeholder="city" size="30" ><br>
+
+
+
+
+	<button id="button" type="submit" form="cal" value="submit" onclick="showdata();">show</button>
+	<p id="test"></p>
+	<script>
+		var arr=[];
+		function pushToArray(name,lastname,age,city){
+			arr.push(
+				new myObj(
+					document.getElementById('name').value,
+					document.getElementById('lastname').value,
+					document.getElementById('age').value,
+					document.getElementById('city').value)
+				);
+		}
+
+		function myObj(name,lastname,age,city){
+			this.name=name;
+			this.lastname=lastname;
+			this.age=age;
+			this.city=city;
+		}
+
+		console.log(arr);
+		function showdata() {
+			for(var i=0;i<arr.length;i++)
+			{
+				document.getElementById("test").innerHTML+="name :"+arr[i].name+"<br>"+"lastname : "+arr[i].lastname+"<br>"+"age: "+arr[i].age+"<br>"+"city : "+arr[i].city+"<br>";
+			}
+
+		}
+	</script>
+
+
+</body>
+</html>

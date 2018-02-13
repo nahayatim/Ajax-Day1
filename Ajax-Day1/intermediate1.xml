@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<catalog>
+  <song id="s1">
+     <title>dd</title>
+     <artist>jm</artist>
+     <genre>pop</genre>
+     <country>U.S.A</country>
+     <year>2016</year>
+    
+  </song>
+  <song id="s2">
+     <title>Gam</title>
+     <artist>looi</artist>
+     <genre>rock</genre>
+     <country>U.S.A</country>
+     <year>2016</year>
+  </song>
+  <song id="s3">
+    <title>yoyo</title>
+     <artist>fff</artist>
+     <genre>pop</genre>
+     <country>U.S.A</country>
+     <year>2016</year>
+  </song>
+  <song id="s4">
+    <title>ghhgh</title>
+     <artist>jazih</artist>
+     <genre>jaz</genre>
+     <country>U.K</country>
+     <year>2016</year>
+  </song>
+  <song id="s5">
+    <title>Gambarde</title>
+     <artist>Xxx</artist>
+     <genre>pop</genre>
+     <country>U.K</country>
+     <year>2016</year>
+  </song>
+  <song id="s6">
+     <title>Gambar</title>
+     <artist>XML</artist>
+     <genre>rock</genre>
+     <country>U.K</country>
+     <year>2016</year>
+  </song>
+  
+</catalog>
+
